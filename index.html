@@ -7,19 +7,29 @@
     <link rel="stylesheet" type="text/css" href="./styles/style.css">
     <title>Churrascometro</title>
 </head>
+
 <body>
-    <div class="container">
-        <h1>Churrascômetro</h1>
-        <input type="number" name="adultos" id="adultos" placeholder="Adultos">
-        <input type="number" name="criancas" id="criancas" placeholder="Crianças">
-        <input type="number" name="duracao" id="duracao" placeholder="Duração (h)">
-        <button onclick="calcular()">Calcular</button>
+
+    <section>
+        <div class="container">
+            <h1>Churrascômetro <img class="icons" src="./styles/images/calculadora.png" alt="calculadora"></h1>
+            <input type="number" name="adultos" id="adultos" placeholder="Adultos">
+            <input type="number" name="criancas" id="criancas" placeholder="Crianças">
+            <input type="number" name="duracao" id="duracao" placeholder="Duração (h)">
+            <button onclick="calcular()">Calcular</button>
     
+            
+            <div id="resultado">
+               
+            </div>         
+        </div>
+    </section>   
 
-        <div id="resultado"></div>
-
-    </div>    
-
+    <footer>
+        
+            
+    </footer>
+    
     <script src="./script/script.js"></script>
 </body>
 </html>

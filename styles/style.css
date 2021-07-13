@@ -1,16 +1,53 @@
+
+body{
+    
+   
+    background-image: url(./images/pexels-min-an-1482803.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+    
+}
 .container{
     max-width: 300px;
-    margin: auto;
-    background-color:rgb(135, 86, 180);
+    margin-left:auto ;
+    background-color: rgba(192, 192, 192, 0.212);
+    color: white;
     padding: 20px;
     border-radius: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 input{
     width: 100%;
     display: block;
     box-sizing: border-box;
     padding: 5px;
     margin-bottom: 10px;
+}
+button{
+    padding: 5px;
+    border-radius: 10px;
+}
+#resultado{
+    padding-top: 10px;   
+}
+
+.icons{    
+    width: 30px;
+}
+
+
+@media screen and (max-width:400px) {
+
+    body{
+        
+        background-image: url(./images/pexels-min-an-1482803.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+    
+        
+        
+    }
+
+    
 }

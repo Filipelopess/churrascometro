@@ -24,15 +24,12 @@ function calcular(){
         qdtCerveja = cervejaPP(duracao) * adultos 
         qdtBebida = bebidaPP(duracao) * adultos + (bebidaPP(duracao) / 2 * criancas)
 
-        resultado.innerHTML = `<p> ${Math.ceil(qdtCarne / 1000)}Kg de carne`
-        resultado.innerHTML += `<p> ${Math.ceil(qdtCerveja / 350)} latas de cerveja`
-        resultado.innerHTML += `<p> ${Math.ceil(qdtBebida / 2000)} Pets de 2L de refrigerante`
-
-       
-        
+        resultado.innerHTML = `<p>Você vai precisar de:</p>`
+        resultado.innerHTML +=  `<p><img class ="icons"src="./styles/images/silhueta-de-fatia-de-carne.png" alt="carne"> ${Math.ceil(qdtCarne / 1000)}Kg de carne`
+        resultado.innerHTML += `<p><img class ="icons"src="./styles/images/cervejas.png" alt="cerveja"> ${Math.ceil(qdtCerveja / 350)} latas de cerveja`
+        resultado.innerHTML += `<p><img class ="icons"src="./styles/images/garrafa-de-refrigerante.png" alt="refrigerante"> ${Math.ceil(qdtBebida / 2000)} Pets de 2L de refrigerante`        
 }
 
-  
     function carnePP(duracao){
         if(duracao >= 6){
             return 650

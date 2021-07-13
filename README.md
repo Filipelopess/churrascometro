@@ -1,0 +1,1 @@
+Projeto do curso ProgramadorBR, que tem como finalidade o calculo de quantidade de itens para um churrasco, baseado na quantidade de pessoas.
